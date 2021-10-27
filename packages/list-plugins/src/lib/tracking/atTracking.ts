@@ -1,6 +1,6 @@
-import { TimestampFieldConfig } from '@keystone-next/keystone/dist/declarations/src/fields/types/timestamp';
-import { timestamp } from '@keystone-next/keystone/fields';
-import { ListConfig, BaseGeneratedListTypes, BaseFields } from '@keystone-next/keystone/types';
+import { TimestampFieldConfig } from '@k6js/ks-next/dist/declarations/src/fields/types/timestamp';
+import { timestamp } from '@k6js/ks-next/fields';
+import { ListConfig, BaseGeneratedListTypes, BaseFields } from '@k6js/ks-next/types';
 import { AtTrackingOptions } from '../types';
 
 export const atTracking =

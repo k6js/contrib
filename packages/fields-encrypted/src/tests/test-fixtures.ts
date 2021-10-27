@@ -1,4 +1,4 @@
-import { DatabaseProvider } from '@keystone-next/keystone/types';
+import { DatabaseProvider } from '@k6js/ks-next/types';
 import { encrypted } from '..';
 
 export const name = 'Encrypted';

@@ -1,11 +1,11 @@
 {
-  "name": "@k6-contrib/fields-s3",
+  "name": "@k6js/contrib-fields-s3",
   "description": "Keystone6 S3 File and Image Field Type",
-  "version": "0.6.1",
+  "version": "0.0.0",
   "author": "The KeystoneJS Contrib Development Team",
   "license": "MIT",
-  "main": "dist/fields-s3.cjs.js",
-  "module": "dist/fields-s3.esm.js",
+  "main": "dist/contrib-fields-s3.cjs.js",
+  "module": "dist/contrib-fields-s3.esm.js",
   "files": [
     "dist",
     "views"
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.15.3",
-    "@keystone-next/keystone": "^26.1.0",
+    "@k6js/ks-next": "^0.2.0",
     "@keystone-ui/button": "^5.0.2",
     "@keystone-ui/core": "^3.2.1",
     "@keystone-ui/fields": "^5.0.1",
@@ -42,7 +42,7 @@
     "react": "^17.0.2",
     "url-join": "^4.0.1"
   },
-  "repository": "https://github.com/keystonejs-contrib/k6-contrib/tree/master/packages/fields-s3",
+  "repository": "https://github.com/k6js/contrib/tree/master/packages/fields-s3",
   "devDependencies": {
     "@types/bytes": "^3.1.1",
     "graphql": "^15.6.1",

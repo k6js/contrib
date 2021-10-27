@@ -1,4 +1,4 @@
 {
-  "main": "dist/fields-dimension.cjs.js",
-  "module": "dist/fields-dimension.esm.js"
+  "main": "dist/contrib-fields-dimension.cjs.js",
+  "module": "dist/contrib-fields-dimension.esm.js"
 }

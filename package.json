@@ -1,12 +1,12 @@
 {
-  "name": "k6-contrib",
+  "name": "k6js-contrib",
   "version": "0.0.0",
   "description": "monorepo for Keystone 6 community projects initiated by Gautam Singh",
   "author": "K6-Contrib Community Development Team",
   "private": true,
   "license": "MIT",
-  "repository": "https://github.com/keystonejs-contrib/k6-contrib",
-  "homepage": "https://github.com/keystonejs-contrib/k6-contrib",
+  "repository": "https://github.com/k6js/contrib",
+  "homepage": "https://github.com/k6js/contrib/k6-contrib",
   "scripts": {
     "postinstall": "preconstruct dev && manypkg check",
     "format:file": "prettier --write",

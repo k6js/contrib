@@ -1,4 +1,4 @@
-import { list, graphQLSchemaExtension, gql, graphql,  } from '@keystone-next/keystone';
+import { list, graphQLSchemaExtension, gql, graphql, } from '@k6js/ks-next';
 import {
   text,
   relationship,
@@ -9,13 +9,13 @@ import {
   virtual,
   image,
   file,
-} from '@keystone-next/keystone/fields';
-import { document } from '@keystone-next/fields-document';
-import { encrypted } from '@k6-contrib/fields-encrypted';
-import { configureTracking } from '@k6-contrib/list-plugins';
+} from '@k6js/ks-next/fields';
+import { document } from '@k6js/ks-next-fields-document';
+import { encrypted } from '@k6js/contrib-fields-encrypted';
+import { atTracking } from '@k6js/contrib-list-plugins';
 
 // import { cloudinaryImage } from '@keystone-next/cloudinary';
-import { KeystoneListsAPI } from '@keystone-next/keystone/types';
+import { KeystoneListsAPI } from '@k6js/ks-next/types';
 import { componentBlocks } from './admin/fieldViews/Content';
 // import { KeystoneListsTypeInfo } from '.keystone/types';
 
@@ -37,11 +37,12 @@ export const access = {
 
 const randomNumber = () => Math.round(Math.random() * 10);
 
-const withTracking = configureTracking({});
+const withTracking = atTracking({});
 
 export const lists = {
-  User: list(
-    {db: {},
+  User: list(withTracking(
+    {
+      db: {},
       ui: {
         listView: {
           initialColumns: ['name', 'posts', 'avatar'],
@@ -66,11 +67,11 @@ export const lists = {
         }),
         secret2: encrypted({
           reverse: true,
-          ui: {displayMode: 'textarea'},
+          ui: { displayMode: 'textarea' },
           secret: process.env.ENCRYPTION_KEYS || 'Super secret encryption keys for testing',
         }),
         superSecret2: encrypted({
-          ui: {displayMode: 'textarea'},
+          ui: { displayMode: 'textarea' },
           secret: process.env.ENCRYPTION_KEYS || 'Super secret encryption keys for testing',
         }),
         /** Avatar upload for the users profile, stored locally */
@@ -119,7 +120,7 @@ export const lists = {
           }),
         }),
       },
-    }
+    })
   ),
   PhoneNumber: list(
     withTracking({
@@ -235,7 +236,7 @@ export const extendGraphqlSchema = graphQLSchemaExtension({
   `,
   resolvers: {
     RandomNumber: {
-      number(rootVal: { number: number }) {
+      number(rootVal: { number: number; }) {
         return rootVal.number * 1000;
       },
     },

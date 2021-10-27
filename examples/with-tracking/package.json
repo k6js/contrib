@@ -1,18 +1,18 @@
 {
-  "name": "@k6-contrib/example-with-tracking",
-  "version": "0.5.1",
+  "name": "@k6js/contrib-example-with-tracking",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=\"--inspect -r dotenv/config\" keystone-next dev",
-    "start": "keystone-next start",
-    "build": "keystone-next build"
+    "dev": "cross-env NODE_OPTIONS=\"--inspect -r dotenv/config\" k6js-next dev",
+    "start": "k6js-next start",
+    "build": "k6js-next build"
   },
   "dependencies": {
-    "@k6-contrib/list-plugins": "^0.5.1",
-    "@keystone-next/auth": "^34.0.0",
-    "@keystone-next/fields-document": "^11.0.0",
-    "@keystone-next/keystone": "^26.1.0",
+    "@k6js/contrib-list-plugins": "^0.0.0",
+    "@k6js/ks-next": "^0.2.0",
+    "@k6js/ks-next-auth": "^0.2.0",
+    "@k6js/ks-next-fields-document": "^0.2.0",
     "typescript": "^4.4.3"
   },
-  "repository": "https://github.com/keystonejs-contrib/k6-contrib/tree/master/examples/with-tracking"
+  "repository": "https://github.com/k6js/contrib/tree/master/examples/with-tracking"
 }

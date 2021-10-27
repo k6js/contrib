@@ -1,11 +1,11 @@
 {
-  "name": "@k6-contrib/fields-s3-images",
+  "name": "@k6js/contrib-fields-s3-images",
   "description": "Keystone6 S3 Sharp Optimized Image Field Type",
-  "version": "0.4.1",
+  "version": "0.0.0",
   "author": "The KeystoneJS Contrib Development Team",
   "license": "MIT",
-  "main": "dist/fields-s3-images.cjs.js",
-  "module": "dist/fields-s3-images.esm.js",
+  "main": "dist/contrib-fields-s3-images.cjs.js",
+  "module": "dist/contrib-fields-s3-images.esm.js",
   "files": [
     "dist",
     "views"
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.15.3",
-    "@keystone-next/keystone": "^26.1.0",
+    "@k6js/ks-next": "^0.2.0",
     "@keystone-ui/button": "^5.0.2",
     "@keystone-ui/core": "^3.2.1",
     "@keystone-ui/fields": "^5.0.1",
@@ -42,7 +42,7 @@
     "sharp": "^0.29.0",
     "url-join": "^4.0.1"
   },
-  "repository": "https://github.com/keystonejs-contrib/k6-contrib/tree/master/packages/fields-s3images",
+  "repository": "https://github.com/k6js/contrib/tree/master/packages/fields-s3images",
   "devDependencies": {
     "@types/bytes": "^3.1.1",
     "@types/sharp": "^0.29.2",

@@ -1,4 +1,4 @@
-import { ListConfig, BaseGeneratedListTypes, BaseFields } from '@keystone-next/keystone/types';
+import { ListConfig, BaseGeneratedListTypes, BaseFields } from '@k6js/ks-next/types';
 
 import { atTracking } from './lib/tracking/atTracking';
 import { byTracking } from './lib/tracking/byTracking';

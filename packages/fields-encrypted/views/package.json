@@ -1,4 +1,4 @@
 {
-  "main": "dist/fields-encrypted.cjs.js",
-  "module": "dist/fields-encrypted.esm.js"
+  "main": "dist/contrib-fields-encrypted.cjs.js",
+  "module": "dist/contrib-fields-encrypted.esm.js"
 }

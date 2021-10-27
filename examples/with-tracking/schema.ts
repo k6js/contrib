@@ -1,7 +1,7 @@
-import { list } from '@keystone-next/keystone';
-import { text, relationship, password, timestamp, select } from '@keystone-next/keystone/fields';
-import { document } from '@keystone-next/fields-document';
-import { configureTracking } from '@k6-contrib/list-plugins';
+import { list } from '@k6js/ks-next';
+import { text, relationship, password, timestamp, select } from '@k6js/ks-next/fields';
+import { document } from '@k6js/ks-next-fields-document';
+import { configureTracking } from '@k6js/contrib-list-plugins';
 
 const withTracking = configureTracking({ atTrackingOptions: { isIndexed: true } });
 

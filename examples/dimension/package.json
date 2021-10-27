@@ -1,6 +1,6 @@
 {
   "name": "@k6js/contrib-example-dimension",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -10,8 +10,8 @@
     "build": "k6js-next build"
   },
   "dependencies": {
-    "@k6js/contrib-fields-dimension": "^0.0.0",
-    "@k6js/contrib-fields-weight": "^0.0.0",
+    "@k6js/contrib-fields-dimension": "^0.1.0",
+    "@k6js/contrib-fields-weight": "^0.1.0",
     "@k6js/ks-next": "^0.2.0"
   },
   "devDependencies": {

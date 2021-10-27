@@ -1,5 +1,16 @@
 # @k6-contrib/example-s3-file
 
+## 0.1.0
+
+### Minor Changes
+
+- 272c5db: initial release after rename, no functionality change from respective version.
+
+### Patch Changes
+
+- Updated dependencies [272c5db]
+  - @k6js/contrib-fields-s3-images@0.1.0
+
 ## 0.4.1
 
 ### Patch Changes

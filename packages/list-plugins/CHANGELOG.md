@@ -1,5 +1,11 @@
 # @k6-contrib-next/list-plugins
 
+## 0.1.0
+
+### Minor Changes
+
+- 272c5db: initial release after rename, no functionality change from respective version.
+
 ## 0.5.1
 
 ### Patch Changes

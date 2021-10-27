@@ -1,7 +1,7 @@
 {
   "name": "@k6js/contrib-list-plugins",
   "description": "List level plugins which can update list config during list initialization including adding additional fields",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "The KeystoneJS Contrib Development Team",
   "license": "MIT",
   "main": "dist/contrib-list-plugins.cjs.js",

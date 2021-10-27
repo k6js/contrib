@@ -1,5 +1,17 @@
 # @k6-contrib/example-dimension
 
+## 0.1.0
+
+### Minor Changes
+
+- 272c5db: initial release after rename, no functionality change from respective version.
+
+### Patch Changes
+
+- Updated dependencies [272c5db]
+  - @k6js/contrib-fields-dimension@0.1.0
+  - @k6js/contrib-fields-weight@0.1.0
+
 ## 0.4.1
 
 ### Patch Changes

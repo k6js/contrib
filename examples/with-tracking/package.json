@@ -1,6 +1,6 @@
 {
   "name": "@k6js/contrib-example-with-tracking",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=\"--inspect -r dotenv/config\" k6js-next dev",
@@ -8,7 +8,7 @@
     "build": "k6js-next build"
   },
   "dependencies": {
-    "@k6js/contrib-list-plugins": "^0.0.0",
+    "@k6js/contrib-list-plugins": "^0.1.0",
     "@k6js/ks-next": "^0.2.0",
     "@k6js/ks-next-auth": "^0.2.0",
     "@k6js/ks-next-fields-document": "^0.2.0",

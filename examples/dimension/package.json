@@ -4,10 +4,10 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--inspect keystone-next dev",
-    "devb": "cross-env NODE_OPTIONS=--inspect-brk keystone-next dev",
-    "start": "keystone-next start",
-    "build": "keystone-next build"
+    "dev": "cross-env NODE_OPTIONS=--inspect k6js-next dev",
+    "devb": "cross-env NODE_OPTIONS=--inspect-brk k6js-next dev",
+    "start": "k6js-next start",
+    "build": "k6js-next build"
   },
   "dependencies": {
     "@k6js/contrib-fields-dimension": "^0.0.0",

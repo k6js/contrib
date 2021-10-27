@@ -1,6 +1,6 @@
-import { list } from '@keystone-next/keystone';
-import { select, relationship, text, timestamp } from '@keystone-next/keystone/fields';
-import { azureStorageImage, azureStorageFile, AzureStorageConfig } from '@k6-contrib/fields-azure';
+import { list } from '@k6js/ks-next';
+import { select, relationship, text, timestamp } from '@k6js/ks-next/fields';
+import { azureStorageImage, azureStorageFile, AzureStorageConfig } from '@k6js/contrib-fields-azure';
 import 'dotenv/config';
 
 const config: AzureStorageConfig = {

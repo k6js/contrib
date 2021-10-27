@@ -18,8 +18,8 @@ import {
   FieldController,
   FieldControllerConfig,
   FieldProps,
-} from '@keystone-next/keystone/types';
-import { CellContainer, CellLink } from '@keystone-next/keystone/admin-ui/components';
+} from '@k6js/ks-next/types';
+import { CellContainer, CellLink } from '@k6js/ks-next/admin-ui/components';
 
 export const Field = ({ field, value, onChange, autoFocus }: FieldProps<typeof controller>) => {
   const [reveal, setReveal] = useState(false);

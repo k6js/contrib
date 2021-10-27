@@ -1,13 +1,13 @@
 {
-  "name": "@k6-contrib/fields-bigint",
-  "version": "0.5.1",
+  "name": "@k6js/contrib-fields-bigint",
+  "version": "0.0.0",
   "author": "The KeystoneJS Contrib Development Team",
   "license": "MIT",
-  "main": "dist/fields-bigint.cjs.js",
-  "module": "dist/fields-bigint.esm.js",
+  "main": "dist/contrib-fields-bigint.cjs.js",
+  "module": "dist/contrib-fields-bigint.esm.js",
   "dependencies": {
     "@babel/runtime": "^7.15.3",
-    "@keystone-next/keystone": "^26.1.0",
+    "@k6js/ks-next": "^0.2.0",
     "@keystone-ui/button": "^5.0.2",
     "@keystone-ui/core": "^3.2.1",
     "@keystone-ui/fields": "^5.0.1",
@@ -27,5 +27,5 @@
       "views/index.tsx"
     ]
   },
-  "repository": "https://github.com/keystonejs-contrib/k6-contrib/tree/master/packages/fields-bigint"
+  "repository": "https://github.com/k6js/contrib/tree/master/packages/fields-bigint"
 }

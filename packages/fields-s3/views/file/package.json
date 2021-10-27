@@ -1,4 +1,4 @@
 {
-  "main": "dist/fields-s3.cjs.js",
-  "module": "dist/fields-s3.esm.js"
+  "main": "dist/contrib-fields-s3.cjs.js",
+  "module": "dist/contrib-fields-s3.esm.js"
 }

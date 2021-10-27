@@ -1,11 +1,11 @@
 {
-  "name": "@k6-contrib/fields-dimension",
+  "name": "@k6js/contrib-fields-dimension",
   "description": "Keystone 6 Dimension Field Type",
-  "version": "0.4.1",
+  "version": "0.0.0",
   "author": "The KeystoneJS Contrib Development Team",
   "license": "MIT",
-  "main": "dist/fields-dimension.cjs.js",
-  "module": "dist/fields-dimension.esm.js",
+  "main": "dist/contrib-fields-dimension.cjs.js",
+  "module": "dist/contrib-fields-dimension.esm.js",
   "files": [
     "dist",
     "views"
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.15.3",
-    "@keystone-next/keystone": "^26.1.0",
+    "@k6js/ks-next": "^0.2.0",
     "@keystone-ui/button": "^5.0.2",
     "@keystone-ui/core": "^3.2.1",
     "@keystone-ui/fields": "^5.0.1",
@@ -32,7 +32,7 @@
     "cuid": "^2.1.8",
     "react": "^17.0.2"
   },
-  "repository": "https://github.com/keystonejs-contrib/k6-contrib/tree/master/packages/fields-dimension",
+  "repository": "https://github.com/k6js/contrib/tree/master/packages/fields-dimension",
   "devDependencies": {
     "@types/bytes": "^3.1.1",
     "graphql": "^15.6.1",

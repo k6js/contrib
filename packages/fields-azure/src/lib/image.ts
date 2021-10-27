@@ -7,8 +7,8 @@ import {
   FieldTypeFunc,
   ImageExtension,
   KeystoneContext,
-} from '@keystone-next/keystone/types';
-import { graphql } from '@keystone-next/keystone';
+} from '@k6js/ks-next/types';
+import { graphql } from '@k6js/ks-next';
 import { getImageRef, SUPPORTED_IMAGE_EXTENSIONS } from './utils';
 import {
   ImageData,

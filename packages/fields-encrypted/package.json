@@ -1,11 +1,11 @@
 {
-  "name": "@k6-contrib/fields-encrypted",
+  "name": "@k6js/contrib-fields-encrypted",
   "description": "Keystone 6 Reversible encryption field",
-  "version": "0.2.1",
+  "version": "0.0.0",
   "author": "The KeystoneJS Contrib Development Team",
   "license": "MIT",
-  "main": "dist/fields-encrypted.cjs.js",
-  "module": "dist/fields-encrypted.esm.js",
+  "main": "dist/contrib-fields-encrypted.cjs.js",
+  "module": "dist/contrib-fields-encrypted.esm.js",
   "files": [
     "dist",
     "views"
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.15.3",
-    "@keystone-next/keystone": "^26.1.0",
+    "@k6js/ks-next": "^0.2.0",
     "@keystone-ui/button": "^5.0.2",
     "@keystone-ui/core": "^3.2.1",
     "@keystone-ui/fields": "^5.0.1",
@@ -33,7 +33,7 @@
     "cuid": "^2.1.8",
     "react": "^17.0.2"
   },
-  "repository": "https://github.com/keystonejs-contrib/k6-contrib/tree/master/packages/fields-encrypted",
+  "repository": "https://github.com/k6js/contrib/tree/master/packages/fields-encrypted",
   "devDependencies": {
     "@types/bytes": "^3.1.1",
     "@types/cryptr": "^4.0.1",

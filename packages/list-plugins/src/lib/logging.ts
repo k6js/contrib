@@ -1,4 +1,4 @@
-import { ListConfig, BaseGeneratedListTypes, BaseFields } from '@keystone-next/keystone/types';
+import { ListConfig, BaseGeneratedListTypes, BaseFields } from '@k6js/ks-next/types';
 
 export const logging =  (loggingFn = (s: Object) => console.log(JSON.stringify(s))) => <Field extends BaseFields<BaseGeneratedListTypes>>({ hooks = {}, ...rest }: ListConfig<BaseGeneratedListTypes, Field>): ListConfig<BaseGeneratedListTypes, Field> => ({
   hooks: {

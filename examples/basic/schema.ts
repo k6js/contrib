@@ -1,4 +1,4 @@
-import { list, graphQLSchemaExtension, gql, graphql,  } from '@keystone-next/keystone';
+import { list, graphQLSchemaExtension, gql, graphql,  } from '@k6js/ks-next';
 import {
   text,
   relationship,
@@ -9,13 +9,13 @@ import {
   virtual,
   image,
   file,
-} from '@keystone-next/keystone/fields';
-import { document } from '@keystone-next/fields-document';
-import { encrypted } from '@k6-contrib/fields-encrypted';
-import { configureTracking } from '@k6-contrib/list-plugins';
+} from '@k6js/ks-next/fields';
+import { document } from '@k6js/ks-next-fields-document';
+import { encrypted } from '@k6js/contrib-fields-encrypted';
+import { configureTracking } from '@k6js/contrib-list-plugins';
 
 // import { cloudinaryImage } from '@keystone-next/cloudinary';
-import { KeystoneListsAPI } from '@keystone-next/keystone/types';
+import { KeystoneListsAPI } from '@k6js/ks-next/types';
 import { componentBlocks } from './admin/fieldViews/Content';
 // import { KeystoneListsTypeInfo } from '.keystone/types';
 

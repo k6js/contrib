@@ -5,8 +5,8 @@ import {
   fieldType,
   FieldTypeFunc,
   KeystoneContext,
-} from '@keystone-next/keystone/types';
-import { graphql } from '@keystone-next/keystone';
+} from '@k6js/ks-next/types';
+import { graphql } from '@k6js/ks-next';
 import { DimensionData, DimensionFieldConfig, DimensionFieldInputType } from './types';
 
 const views = path.join(path.dirname(__dirname), 'views');

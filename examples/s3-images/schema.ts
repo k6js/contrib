@@ -1,6 +1,6 @@
-import { list } from '@keystone-next/keystone';
-import { select, relationship, text, timestamp } from '@keystone-next/keystone/fields';
-import { S3ImagesConfig, s3Images } from '@k6-contrib/fields-s3-images';
+import { list } from '@k6js/ks-next';
+import { select, relationship, text, timestamp } from '@k6js/ks-next/fields';
+import { S3ImagesConfig, s3Images } from '@k6js/contrib-fields-s3-images';
 import 'dotenv/config';
 
 const s3Config: S3ImagesConfig = {

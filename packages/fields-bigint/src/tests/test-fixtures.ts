@@ -1,5 +1,5 @@
 import { bigInt } from '..';
-import { text } from '@keystone-next/keystone/fields';
+import { text } from '@k6js/ks-next/fields';
 
 export const name = 'BigInt';
 export const typeFunction = bigInt;

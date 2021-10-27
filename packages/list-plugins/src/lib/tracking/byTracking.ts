@@ -1,8 +1,8 @@
-import { relationship } from '@keystone-next/keystone/fields';
-import { ListConfig, BaseGeneratedListTypes, BaseFields } from '@keystone-next/keystone/types';
+import { relationship } from '@k6js/ks-next/fields';
+import { ListConfig, BaseGeneratedListTypes, BaseFields } from '@k6js/ks-next/types';
 import { ByTrackingOptions, ResolveInputHook } from '../types';
 import { composeHook } from '../utils';
-import type { RelationshipFieldConfig } from '@keystone-next/keystone/dist/declarations/src/fields/types/relationship';
+import type { RelationshipFieldConfig } from '@k6js/ks-next/dist/declarations/src/fields/types/relationship';
 
 export const byTracking =
   (options: ByTrackingOptions = { ref: 'User' }) =>

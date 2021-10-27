@@ -1,4 +1,4 @@
-import { BaseGeneratedListTypes, CommonFieldConfig } from '@keystone-next/keystone/types';
+import { BaseGeneratedListTypes, CommonFieldConfig } from '@k6js/ks-next/types';
 
 export type WeightData = {
   unit: string;

@@ -33,7 +33,14 @@ export const lists = {
       }),
       content: text(),
       image: s3Images({ s3Config }),
-      image2: s3Images({ s3Config: { ...s3Config, folder: `${process.env.S3_PATH}2`, sizes: { sm: 480, md: 1024, lg: 1920 } } }),
+      image2: s3Images({
+        s3Config: {
+          ...s3Config,
+          folder: `${process.env.S3_PATH}2`,
+          baseUrl: `${process.env.S3_BASE_URL}2`,
+          sizes: { sm: 480, md: 1024, lg: 1920 }
+        }
+      }),
       publishDate: timestamp(),
       author: relationship({ ref: 'Author.posts', many: false }),
     },
